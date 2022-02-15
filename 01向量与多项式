@@ -1,1 +1,27 @@
 1向量的生成
+  直接生成法：[]空格和逗号分隔生成行向量，有分号分隔生成列向量
+  冒号法x=first:increment:last
+  利用函数；linspace(firstvalue,lastvalue,numberofelement)
+  利用函数：logspace（firstvalue,lastvalue,number）建立从10^first->10^last
+2向量的运算
+ dot （a,b（，dim））
+ cross（a,b（，dim））
+  返回ab在dim维的点（叉）积
+ 混合积（a,cross(b,c)）
+3多项式
+  建立多项式
+  poly2sym(p) p为多项式系数向量
+  多项式运算法则（用向量解决）
+  conv 卷积
+  deconv 解卷
+  多项式导数运算
+  polyder（）
+ 4特殊变量
+  1单元型变量：
+  单元型变量的定义需要使用大括号。而元素之间需要用逗号隔开
+  生成函数cell（N）/（M,N...）/(size(A))
+  单元型变量的引用{}for具体值（）for压缩值
+  *有关单元型变量的函数
+  cell()生成函数    cellfun()
+  2结构型变量
+  
